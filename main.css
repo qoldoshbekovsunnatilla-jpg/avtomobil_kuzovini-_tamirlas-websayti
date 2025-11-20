@@ -39,6 +39,12 @@ background-repeat: no-repeat;
         background-size: cover;
         
     }
+    .joylash{
+       width: 430px;
+height: 132px;
+opacity: 1;
+
+    }
 
     .navbar {
         border-bottom: 1px solid white;
