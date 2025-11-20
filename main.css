@@ -34,9 +34,10 @@ background-repeat: no-repeat;
 @media (max-width: 576px) {
 
     .ota{
+        width: 430px;
         height: 600px; /* mobilga mos */
         background-size: cover;
-        background-position: ;
+        
     }
 
     .navbar {
