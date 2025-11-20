@@ -235,3 +235,89 @@ letter-spacing: 0%;
     display: none;
   }
 }
+
+
+
+    .number-img {
+        width: 80px; 
+        opacity: 0.15;
+    }
+    .item-box {
+        position: relative;
+        padding-left: 100px;
+        min-height: 90px;
+    }
+    .item-box img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .item-block {
+        position: relative;
+        padding: 40px 20px;
+        background-repeat: no-repeat;
+        background-size: 140px;
+        background-position: left top;
+        min-height: 170px;
+    }
+
+    /* Mobil versiyada ham aynan shu ko‘rinish */
+    @media (max-width: 576px) {
+        .item-block {
+            background-size: 120px;
+            padding-left: 20px;
+            min-height: 160px;
+        }
+    }
+
+    /* Matn raqamdan ustida turishi uchun */
+    .item-text {
+        position: relative;
+        z-index: 5;
+        max-width: 420px;
+    }
+    
+
+
+
+
+
+.foyda {
+    width: 100%;
+    padding: 70px 0;
+    background-image: url("img/22b38543cbd33d6adff7f21c44b52cc81ad088ca.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box {
+    background: #fff;
+    border-radius: 4px;
+    min-height: 150px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+
+/* Telefon versiya */
+@media (max-width: 575px) {
+    .foyda {
+        padding: 40px 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box {
+        padding: 18px !important;
+    }
+
+    .icon {
+        width: 36px;
+        height: 36px;
+    }
+}
