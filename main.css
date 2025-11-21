@@ -397,3 +397,41 @@ letter-spacing: 0%;
 }
 
 
+
+
+.footer-dark {
+    background: #3b3b3b;
+}
+
+.footer-logo {
+    height: 48px;   /* Rasmdagi bilan bir xil */
+}
+
+.pin-icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.9;
+}
+
+/* Mobil versiya uchun */
+@media (max-width: 768px) {
+
+    .footer-logo {
+        height: 65px; /* 2-rasmdagi katta logotip */
+        margin-bottom: 10px;
+    }
+
+    .address-block p {
+        justify-content: flex-start !important;
+    }
+
+    footer .col-12 {
+        text-align: left !important;
+    }
+    .fotterre{
+           width: 430px;
+           margin-top: 70px;
+    }
+  
+}
+

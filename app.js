@@ -12,3 +12,6 @@ function ozgar() {
         body.style.color = 'white'
     }
 }
+
+
+
