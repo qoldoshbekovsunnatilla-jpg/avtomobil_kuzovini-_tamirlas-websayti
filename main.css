@@ -307,6 +307,7 @@ letter-spacing: 0%;
 /* Telefon versiya */
 @media (max-width: 575px) {
     .foyda {
+         width: 430px;
         padding: 40px 0;
         background-size: cover;
         background-position: center;
@@ -347,8 +348,17 @@ letter-spacing: 0%;
 
 /* Telefon versiya: 2 ta card */
 @media (max-width: 575px) {
+    .services{
+          width: 430px;
+    }
     .service-card img {
         height: 140px;
+    }
+    .reviews-section{
+         width: 430px;
+    }
+    .crslala{
+         width: 430px;
     }
 }
 
